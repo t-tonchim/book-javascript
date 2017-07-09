@@ -11,5 +11,15 @@
   * [https://codepen.io/](https://codepen.io/) や [http://jsbin.com/](http://jsbin.com/) などのweb上の実行環境
   * または自分のローカル環境でNodeを使用したり、ブラウザの`developer tool`でも構いません
 
+### 今回の内容
+
+* 関数定義
+  * コンストラクタ
+  * 関数リテラル
+  * 関数宣言
+  * 即時関数
+* 変数定義と変数のスコープ
+* thisについて
+
 
 
