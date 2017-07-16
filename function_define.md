@@ -8,8 +8,6 @@
 
 JavaScriptにおける関数の定義方法はいくつかあります。
 
-
-
 #### 関数宣言
 
 ```js
@@ -20,8 +18,6 @@ function add(a, b) {
 var output = add(1, 2);
 console.log(output); //=> 3
 ```
-
-
 
 
 
