@@ -80,5 +80,23 @@ const bar = () => ({ bar: 'bar'}) // 返り値がオブジェクトの場合は(
 }();
 ```
 
+#### コンストラクタ
+
+JavaScriptでのコンストラクタは以下のように`this`を使用して定義します。定義したコンストラクタは`new`キーワードでインスタンスを作ることができます。`new`を付けずにコンストラクタを使用してはいけません。
+
+```js
+function People(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+var user = new People('tom', 20);
+
+var user = People('tom', 20); // newを付けないと（関数呼び出しを行うと）
+window.name //=> 'tom' グローバルオブジェクトにプロパティを追加してしまう
+```
+
+
+
 
 
