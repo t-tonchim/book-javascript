@@ -3,6 +3,6 @@
 * [はじめに](README.md)
 * [型](types.md)
 * [変数](variables.md)
+* [関数](//function_define.md)
 * [スコープ](scope.md)
-* [関数定義](//function_define.md)
 
